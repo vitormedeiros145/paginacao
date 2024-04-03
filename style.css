@@ -1,0 +1,33 @@
+html {
+    display: block;
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+}
+
+.ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+ }
+
+li {
+display: inline-block;
+    border: 1px solid;
+    padding: 20px;
+    cursor: pointer;
+    background-color: rgb(210, 206, 206);
+    transition: 1s;
+    box-shadow: 2px 2px 2px black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+li:hover {
+    transform: scale(1.1);
+    background-color: rgb(149, 154, 153);
+
+}
+
